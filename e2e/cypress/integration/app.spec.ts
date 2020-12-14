@@ -1,7 +1,7 @@
 /// <reference path="../support/index.d.ts" />
 
 it("works", () => {
-  cy.visit("http://localhost:3000");
+  cy.visit("/");
   cy.getByTestId("example-button");
 });
 
