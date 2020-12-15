@@ -4,6 +4,6 @@ import App from "./App";
 
 it("renders example button", () => {
   render(<App />);
-  const button = screen.getByText(/Blueprint Example/i);
+  const button = screen.getByTestId("example-button");
   expect(button).toBeInTheDocument();
 });
