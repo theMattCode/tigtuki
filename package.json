@@ -1,0 +1,16 @@
+{
+  "name": "tigtuki",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "husky": "^4.3.6"
+  },
+  "scripts": {
+    "precommit:test": "cd packages/pwa && yarn run test:ci"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run precommit:test"
+    }
+  }
+}
