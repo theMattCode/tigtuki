@@ -2,6 +2,9 @@ name: e2e Test
 
 on:
   push:
+    paths:
+      - 'packages/e2e/**'
+      - '.github/workflows/e2e-test.yml'
 
 jobs:
   e2e-test:
