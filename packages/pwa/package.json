@@ -1,11 +1,12 @@
 {
-  "name": "tigtuki",
+  "name": "tigtuki-pwa",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "test:ci": "CI=true react-scripts test"
   },
   "dependencies": {
     "@blueprintjs/core": "^3.36.0",
